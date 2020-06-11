@@ -1,0 +1,92 @@
+body{
+    font-family: arial,sans-serif;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    padding-top: 175px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-left: 275px;
+    width: auto;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li{
+    display: inline-block;
+    color: #000;
+}
+
+.rightside {
+    display: block;
+    padding: 15px;
+    float:right;
+    font-size: 13px;
+}
+
+.leftside {
+    display: block;
+    padding: 15px;
+    float:left;
+    font-size: 13px;
+}
+
+.botrightside{
+    display: block;
+    padding: 20px;
+    float: right;
+    font-size: 14px;
+}
+
+.botleftside {
+    display: block;
+    padding: 20px;
+    float: left;
+    font-size: 14px;
+}
+
+#signin {
+    background-color: #008CBA;
+    font-size: 14px;
+    padding: 8px 12px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: #000;
+}
+
+.textbar {
+    display: flex;
+    margin-top: 6px;
+    margin-right: auto;
+    margin-bottom: 6px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 200px;
+    padding-bottom: 0px;
+    padding-left: 200px;
+    font-size:16px;
+}
+
+footer{
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 15px;
+}
